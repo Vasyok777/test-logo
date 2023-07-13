@@ -1,0 +1,21 @@
+.button {
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	column-gap: 7rem;
+	background-color: #fff;
+}
+.modal {
+	padding: 7rem 19rem 7rem 5rem;
+	border-radius: 100px;
+}
+.clear {
+	background-color: transparent;
+}
+.tariff {
+	padding: 11.5rem 26.5rem;
+	border-radius: 100rem;
+	background-color: #282727;
+	color: #fff;
+}

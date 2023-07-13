@@ -1,0 +1,44 @@
+.sidebar__item {
+	padding: 3rem 0;
+	transition: all 0.3s ease-in;
+	&:hover {
+		color: var(--accept-color);
+		& svg path {
+			transition: all 0.3s ease-in;
+			fill: var(--accept-color);
+		}
+	}
+	&.active {
+		color: var(--accept-color);
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			height: 100%;
+			width: 4rem;
+			border-radius: 25%;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			background-color: var(--accept-color);
+		}
+		& svg path {
+			transition: all 0.3s ease-in;
+			fill: var(--accept-color);
+		}
+	}
+	& a {
+		display: flex;
+		align-items: center;
+		gap: 12rem;
+		font-size: 16rem;
+	}
+}
+.svg {
+	width: 24rem;
+	height: 24rem;
+	& svg {
+		width: 100%;
+		height: 100%;
+	}
+}

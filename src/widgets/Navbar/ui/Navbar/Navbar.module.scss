@@ -1,0 +1,18 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	gap: 50rem;
+	@media (max-width: 768px) {
+		gap: 30rem;
+	}
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	column-gap: 13rem;
+	font-weight: var(--font-weight-secondary);
+	@media (max-width: 768px) {
+		display: none;
+	}
+}

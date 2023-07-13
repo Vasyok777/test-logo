@@ -1,0 +1,27 @@
+export const FacebookSvg = () => {
+	return (
+		<svg
+			width="27"
+			height="27"
+			viewBox="0 0 27 27"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<circle
+				cx="13.4999"
+				cy="13.5"
+				r="12.3854"
+				fill="black"
+				stroke="black"
+				stroke-width="1.5"
+			/>
+			<path
+				d="M17.3438 8.375H16.0625C15.6699 8.375 15.2811 8.45233 14.9184 8.60257C14.5557 8.75281 14.2262 8.97302 13.9485 9.25063C13.6709 9.52824 13.4507 9.85781 13.3005 10.2205C13.1502 10.5832 13.0729 10.972 13.0729 11.3646V25.8854M9.65625 16.0625H17.3438"
+				stroke="#F7F8FA"
+				stroke-width="1.5"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
+		</svg>
+	)
+}
