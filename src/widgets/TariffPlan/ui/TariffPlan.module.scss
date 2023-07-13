@@ -1,0 +1,18 @@
+.tariff {
+	width: max-content;
+	padding: 40rem 28rem;
+	border-radius: 20rem;
+	background-color: rgba(173, 197, 243, 0.13);
+	text-align: center;
+	&__day {
+		display: inline-block;
+		font-size: 16rem;
+		color: #000;
+		margin-bottom: 10rem;
+	}
+	&__text {
+		margin-bottom: 20rem;
+		font-size: 12rem;
+		font-weight: 500;
+	}
+}
